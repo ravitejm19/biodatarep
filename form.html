@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="form.js"></script>
+        <link rel="stylesheet" href="form.css">
+        <h1>Bio data</h1>
+    </head>
+<body>
+    <form id="frm" onsubmit="return calling()">
+        <p><label for="first">First Name:</label>
+        <input type="text" id="fname">
+    </p>
+ <p>      <label for="last">Last Name:</label>
+        <input type="text" id="sname">
+</p>
+       <p><label for="agen">Age:</label>
+        <input type="number" id="age">
+</p>
+        <p>
+            <label for="gen">Gender:</label>
+        <input type="radio" name="gender" value="male" > Male
+        <input type="radio" name="gender" value="female"> Female
+    </p>
+    <p>
+        <label for="deptn">Department:</label>
+        <select name="dname" id="dept">
+            <option value="financial">financial</option>
+            <option value="retail">retail</option>
+            <option value="management">management</option>
+            <option value="technology">technology</option>
+        </select>
+        </p>
+        <p><label for="add">ADDRESS:</label>
+        <textarea id="tarea" rows="4" cols="10"></textarea></p>
+        
+        <input type="submit"value="submit" name="submit">
+    </form>
+</body>
+</html>

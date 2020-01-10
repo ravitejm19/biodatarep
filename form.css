@@ -1,0 +1,39 @@
+
+h1{
+    text-align: center;
+    color: red;
+}
+#frm{
+    margin-left: 450px;
+    text-align: justify;
+    display: table;
+}
+p{
+    display: table-row;
+}
+label{
+    display: table-cell;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+#fname{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#sname{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#age{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#dept{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#tarea{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: table-cell;
+}
