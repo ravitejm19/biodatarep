@@ -1,4 +1,6 @@
-
+body{
+    background-color:antiquewhite;
+}
 h1{
     text-align: center;
     color: red;
@@ -15,25 +17,47 @@ label{
     display: table-cell;
     padding-right: 15px;
     margin-bottom: 10px;
+    vertical-align: middle;
 }
 #fname{
     padding-left: 10px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    border-color: aqua;
 }
 #sname{
     padding-left: 10px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    border-color: aqua;
 }
 #age{
     padding-left: 10px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    border-color: aqua;
 }
 #dept{
     padding-left: 10px;
     margin-bottom: 10px;
+    border-radius: 8px;
+    border-color: aqua;
 }
 #tarea{
     padding-left: 10px;
     margin-bottom: 10px;
     display: table-cell;
+    border-radius: 8px;
+    border-color: aqua;
+}
+#sub{
+    background-color: aqua;
+    border-style: solid;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 7px;
+    margin-left: 500px;
+    height: 29px;
+    width: 80px;
 }
